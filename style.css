@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Caveat&family=Dancing+Script&family=Gloria+Hallelujah&family=Kaushan+Script&family=Permanent+Marker&family=Playball&family=Rock+Salt&family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Caveat&family=Dancing+Script&family=Gloria+Hallelujah&family=Inspiration&family=Kaushan+Script&family=Permanent+Marker&family=Playball&family=Rock+Salt&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0px;
+}
+body{
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+
+.section-1 {
+    height: 70vh;
+    width: 100vw;
+    background:url('https://wallpaperaccess.com/full/462773.jpg');
+    
+    /*background: url('https://cdn.pixabay.com/photo/2014/07/08/12/34/pizza-386717_1280.jpg');
+   */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    
+
+}
+.section-1 .navigation{
+    height: 50px;
+}
+.section-1 .navigation ul li{
+    position: sticky;
+    height: 30px;
+    margin-top: 10px;
+    display:inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+   
+}
+.section-1 .center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.section-1 .center h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-family: 'Playball', cursive;
+    
+}
+.section-1 .center button{
+    padding: 20px 25px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+.span{
+    float: left;
+    position: relative; 
+    bottom: -157px;
+    left: -500px;
+    color:white;
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 5px 10px;
+    background-color: black;
+}
+
+.section-2{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+
+}
+.section-2 h1{
+    height: 20vh;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Playball', cursive;
+}
+.menus{
+    display: flex;
+    justify-content: space-around;
+
+}
+.section-2 .menu h2{
+    background-color: red;
+    color: white;
+
+}
+.section-2 .menu .menu1{
+    display: flex;
+    flex-direction: row;
+}
+.section-3{
+    width: 100vw;
+    height: 200vh;
+    background-color: rgb(128, 85, 85);
+    font-family: 'Inspiration', cursive;
+    font-size: 30px;
+}
+.section-3 .about h1{
+    font-size: 50px;
+    text-align: center;
+    padding: 50px;
+    height: 30px;
+}
+.section-3 .about p{
+    margin: 20px;
+    color: white;
+}
+.section-3 .about .image{
+    display: flex;
+    justify-content: space-between;
+}
+.section-3 .about .image .img{
+    width: 300px;
+    height:200px;
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwUeRcwVdmR9n4IGX9AvPLYqd-MmKnrYAx_iujsJSsBxQ67t7N_lJ44BYseJccWKkqL4A&usqp=CAU');
+    border-radius: 50%;
+}
+.section-3 .about .kitchen{
+    margin-top: 20px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+.section-3 .about .timing{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin: 20px;
+}
+.section-4 img{
+   width: 100vw;
+   height: 70vh;
+}
+
+
+.section-5{
+    background-color: rgb(124, 139, 167);
+    color: white;
+}
+.section-5 h1{
+    font-size: 50px;
+    padding: 50px;
+    text-align: center;
+    font-family: 'Playball', cursive;
+}
+.section-5 p{
+    margin-left: 20px;
+    padding: 15px;
+    font-size: 20px;
+}
+.section-5 p1{
+    font-size: 25px;
+}
+input{
+    display:flex ;
+    flex-direction: column;
+    margin-top: 15px;
+    width: 80%;
+    padding: 20px ;
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.section-6{
+    width: 100vw;
+    height: 30vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 30px;
+}
+
+
+
+
+
+
